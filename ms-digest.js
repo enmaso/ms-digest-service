@@ -201,7 +201,7 @@ function processFile (message, done) {
               }
             })
           } else {
-            console.error('OneDrive response ', response.statusCode)
+            console.error(`OneDrive response ${response.statusCode} ${response.statusMessage}`)
             return done(response.statusCode)
           }
         })
