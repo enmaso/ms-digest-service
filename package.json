@@ -1,0 +1,29 @@
+{
+  "name": "ms-digest-service",
+  "version": "1.0.0",
+  "description": "Microsoft File Digest Service",
+  "main": "ms-digest.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Enmaso, Inc.",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "2.5.0",
+    "aws-sdk": "2.141.0",
+    "dotenv": "4.0.0",
+    "gramophone": "0.0.3",
+    "mongoosastic": "4.3.0",
+    "mongoose": "4.12.4",
+    "request": "2.83.0",
+    "sqs-consumer": "3.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1",
+    "standard": "10.0.3"
+  }
+}
